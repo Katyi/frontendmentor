@@ -63,7 +63,7 @@ main {
 
 .card-tag {
   background-color: var(--color-yellow);
-  padding: 0.25rem 0.75rem;
+  padding: clamp(0.2rem, 1vw, 0.25rem) clamp(0.5rem, 2vw, 0.75rem);
   border-radius: 0.25rem;
   color: var(--color-black);
   font-size: 0.75rem;
