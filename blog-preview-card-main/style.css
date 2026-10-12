@@ -39,7 +39,7 @@ main {
 .card {
   width: min(100%, 24rem);
   background-color: var(--color-white);
-  padding: 1.5rem;
+  padding: clamp(1rem, 4vw, 1.5rem);
   border-radius: 1.25rem;
   box-shadow: 0.5rem 0.5rem 0 var(--color-black);
   display: flex;
